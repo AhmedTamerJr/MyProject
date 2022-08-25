@@ -16,7 +16,7 @@ export default function NavBar() {
         </div>
 
         <ul className='Nav-Menu'>
-            <li>Home</li>
+            <li><b>H</b>ome</li>
             <li>Destination</li>
             <li>Travel</li>
             <li>Book</li>
@@ -34,7 +34,7 @@ export default function NavBar() {
         {/* mobile menu */}
         <div className={nav ? 'Mobile-Menu active':"Mobile-Menu"}> 
             <ul className='mobile-nav'>
-                <li>Home</li>
+                <li><span>H</span>ome</li>
                 <li>Destination</li>
                 <li>Travel</li>
                 <li>Book</li>

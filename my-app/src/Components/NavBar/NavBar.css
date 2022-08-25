@@ -1,3 +1,7 @@
+*{
+    transition: .3s ease-in-out;
+}
+
 .NavBar{
 
     /* background-color: rgb(109, 25, 25); */
@@ -5,10 +9,14 @@
     height: 100px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
     padding: 0 1 rem;
     z-index:3;
     flex-wrap: wrap;
+    position: absolute;
+    color: aliceblue;
+
+
 
 }
 .Nav-Icons{
@@ -22,6 +30,11 @@
 .Nav-Menu{
 
     display: flex;
+}
+.Nav-Menu li:hover{
+
+    font-size: large;
+    color: rgba(5, 62, 138, 0.699);
 }
 li{
     padding: 1rem;
@@ -62,6 +75,16 @@ li{
         padding:1.2rem 1rem;
         margin: 0 1rem ;
         border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+        font-size: large;
+        transition: .2s ease-in-out;
+    }
+    .mobile-nav li span{
+        font-weight: bolder;
+    }
+    .mobile-nav li:hover{
+        font-weight: bold;
+        border-top: 1px solid rgba(0, 0, 0, 0.13);
+
     }
     .Mobile-menu-bottom{
 
@@ -106,9 +129,10 @@ li{
     }
 
     .Right-Side{
-        display: block;
-        color: rgb(94, 62, 15);
-        transform: scale(1.7);
+        display: flex;
+        text-align: center;
+        color: rgba(37, 92, 211, 0.877);
+        transform: scale(1.2);
         cursor: pointer;
     }
 }
