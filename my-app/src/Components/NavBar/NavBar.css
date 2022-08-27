@@ -54,7 +54,7 @@ li{
         color:  rgba(255, 255, 255,.95);
         background-color: rgb(238, 234, 234);
         position: absolute;
-        top:-80vh;
+        top:-200vh;
         justify-content: space-around;
         align-items: center; 
         transition: 0.7s;

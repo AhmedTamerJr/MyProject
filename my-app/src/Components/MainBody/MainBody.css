@@ -1,0 +1,54 @@
+.MainBody{
+
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+.MainBody h1{
+
+    padding: 1rem;
+}
+ .Image-Container{
+    /* variables */
+    --gap: 1rem;
+    --num-cols:5;
+    --row-height:300px;
+    /* *** */
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    /* grid-template-rows: var(--row-height); */
+    margin:auto 0;
+    padding: 1rem 0;
+    gap:var(--gap);
+    
+} 
+
+.Image-Container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.span-3{
+
+    grid-column: span 3;
+    /* grid-row: 1/3; */
+}
+
+.Image-grid-span-2{
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 940px){
+    .Image-Container{
+
+        --gap: 0.5rem;
+        --num-cols:2;
+        --row-height:100px;
+
+    }
+    .span-3{
+        grid-column: span 2;
+    }
+}

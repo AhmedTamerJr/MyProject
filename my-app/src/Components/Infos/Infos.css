@@ -1,0 +1,43 @@
+.Container-info{
+    width:100%;
+    height:100%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid: 1rem;
+    padding: 2rem;
+    align-items: center;
+}
+/* .Left-Side{
+
+    grid-column: span 2 ;
+} */
+
+.Search{
+width: 100%;
+margin: 2rem auto;
+
+border-left: solid rgba(0, 0, 0, 0.39) 1px;
+}
+.Former{
+    display: grid;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 940px){
+    .Search{
+        border-left: none;
+        display: flex;
+        justify-content: center;
+        grid-column: span 2;
+        
+    }
+    .Former{
+        width: 70%;
+    }
+    .Left-Side{
+
+    grid-column: span 2 ;
+    } 
+}
