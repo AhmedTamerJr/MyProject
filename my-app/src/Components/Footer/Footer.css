@@ -1,0 +1,62 @@
+.Footer{
+height: 10rem;
+
+}
+
+.Footer-Container{
+    background-color: rgba(14, 57, 177, 0.719);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.Top{
+    width: 100%;
+    height:50% ;
+    display: flex;
+    margin: 0 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Icons-Footery{
+    display: flex;
+    justify-content: center;
+
+}
+.Icons-Footery ul li{
+
+        display: inline;
+}
+.bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap ;
+    line-height: 1rem;
+}
+.bottom ul li{
+
+    display: inline;
+
+}
+.bottom .Left-part , .bottom .Right-part{
+
+    display: block;
+
+}
+@media screen and (max-width: 580px){
+    .bottom{
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 510px){
+    .bottom{
+        font-size: small;
+    }
+}

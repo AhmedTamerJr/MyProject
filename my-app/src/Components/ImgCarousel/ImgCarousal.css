@@ -1,0 +1,23 @@
+.axis-vertical ,.control-arrow ,.carousel-status{
+    display: none;
+}
+
+.carousel{
+
+    padding: 2rem 0;
+
+}
+
+.carousel img {
+    height: 90vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.thumbs-wrapper{
+    display: none;
+}
+div.carousel-root:nth-child(2){
+    background-color: rgb(128, 34, 34);
+
+}
