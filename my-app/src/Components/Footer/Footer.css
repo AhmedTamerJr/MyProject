@@ -60,3 +60,8 @@ height: 10rem;
         font-size: small;
     }
 }
+@media screen and (max-width: 400px){
+    .bottom{
+        font-size: xx-small;
+    }
+}

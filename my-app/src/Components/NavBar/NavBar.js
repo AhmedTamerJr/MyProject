@@ -3,6 +3,7 @@ import  {BiSearch} from "react-icons/bi"
 import {BsSegmentedNav,BsPersonFill} from "react-icons/bs"
 import {TiSocialFacebook ,TiSocialTwitter,TiSocialYoutubeCircular ,TiSocialGithub ,TiSocialInstagramCircular} from "react-icons/ti"
 import "./NavBar.css"
+import {Link} from "react-scroll";
 export default function NavBar() {
 
     const [nav, setNav]=useState(false)
@@ -10,17 +11,17 @@ export default function NavBar() {
     
   return (
     
-    <div className='NavBar '>
+    <div name="nav" className='NavBar '>
         <div>
             <h2>BEACH.</h2>
         </div>
 
         <ul className='Nav-Menu'>
-            <li><b>H</b>ome</li>
-            <li>Destination</li>
-            <li>Travel</li>
-            <li>Book</li>
-            <li>Views</li>
+           <Link to="main" smooth duration={500}> <li><b>H</b>ome</li></Link>
+           <Link to="carousel"  smooth duration={500}> <li>Destination</li></Link>
+           <Link to="views"  smooth duration={500}> <li>Travel</li></Link>
+           <Link to="info"  smooth duration={500}> <li>Book</li></Link>
+           <Link to="footer"  smooth duration={2000}> <li>About us</li></Link>
         </ul>
 
         <div className='Nav-Icons'>   

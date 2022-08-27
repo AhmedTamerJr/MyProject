@@ -9,7 +9,7 @@ import Imgsummon from '../Imgsummoner/imgsummon'
 import"./Selects.css"
 function Selects() {
   return (
-    <div className="Selects-Container">
+    <div name="views" className="Selects-Container">
         
             <Imgsummon img={borabora} text="Bora Bora"/>
             <Imgsummon img={borabora2} text="Emerald Bay"/>

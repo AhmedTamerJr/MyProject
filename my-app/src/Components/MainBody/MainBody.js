@@ -8,7 +8,7 @@ import maldives3 from "../../mediaUsed/maldives3.jpg"
 
 function MainBody() {
   return (
-    <div className='MainBody'>
+    <div name="main"className='MainBody'>
         <div className='Container'>
 
             <h1>

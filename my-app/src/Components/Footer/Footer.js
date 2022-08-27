@@ -4,7 +4,7 @@ import {TiSocialFacebook ,TiSocialTwitter,TiSocialYoutubeCircular ,TiSocialGithu
 
 export default function Footer() {
   return (
-    <div className='Footer'>
+    <div name="footer" className='Footer'>
          <div className='Footer-Container'>
             <div className='Top'> 
                 <h3>BEACHES . </h3>

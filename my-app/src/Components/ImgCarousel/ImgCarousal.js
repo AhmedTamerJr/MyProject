@@ -12,7 +12,7 @@ import "./ImgCarousal.css"
 export default function ImgCarousal() {
   return (
     <div>
-        <div className='container '>
+        <div name="carousel" className='container '>
         <Carousel  autoPlay={true} infiniteLoop={true}>
             <div>
                 <img src={borabora}  alt="1"/>
